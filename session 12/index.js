@@ -1,0 +1,14 @@
+console.log(document.body.childNodes);
+console.log(document.body.childNodes[1]);
+console.log(document.querySelector("ul").childNodes);
+console.log(document.querySelector("ul").childNodes[1]);
+console.log(document.querySelector("ul").parentNode);
+console.log(document.querySelector("nav").parentNode);
+console.log(document.querySelector("ul").nextSibling);
+console.log(document.querySelector("ul").previousElementSibling);
+console.log(document.querySelector("nav").childNodes[1].childNodes);
+console.log(document.querySelector("ul").firstChild);
+console.log(document.querySelector("ul").firstElementChild);
+console.log(document.querySelector("ul").lastChild);
+console.log(document.querySelector("ul").lastElementChild);
+console.log(document.querySelector("ul").children);
